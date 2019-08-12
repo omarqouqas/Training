@@ -38,8 +38,8 @@ public class Main {
 
 		int[] secondArray = {1,2,3,4,5,6};
 		System.out.println(secondArray[3]);
-		System.out.println("the size of array numbers is "  + firstArray.length);
-		System.out.println("the size of array numbers2 is "  + secondArray.length);
+		System.out.println("the size of the first array is "  + firstArray.length);
+		System.out.println("the size of the second array is "  + secondArray.length);
 	}
 }
 
