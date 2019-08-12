@@ -29,17 +29,17 @@ public class Main {
 		String userInput = scan.next();
 		System.out.println("You entered " + userInput);
 
-		int[] numbers = new int[5];
-		numbers[0] = 31;
-		numbers[1] = 45;
-		System.out.println(numbers[0]);
-		System.out.println("index 2 has " + numbers[2]);
-		System.out.println("index 3 has " + numbers[3]);
+		int[] firstArray = new int[5];
+		firstArray[0] = 31;
+		firstArray[1] = 45;
+		System.out.println(firstArray[0]);
+		System.out.println("index 2 in firstArray has number " + firstArray[2]);
+		System.out.println("index 3 firstArray has " + firstArray[3]);
 
-		int[] numbers2 = {1,2,3,4,5,6};
-		System.out.println(numbers2[3]);
-		System.out.println("the size of array numbers is "  + numbers.length);
-		System.out.println("the size of array numbers2 is "  + numbers2.length);
+		int[] secondArray = {1,2,3,4,5,6};
+		System.out.println(secondArray[3]);
+		System.out.println("the size of array numbers is "  + firstArray.length);
+		System.out.println("the size of array numbers2 is "  + secondArray.length);
 	}
 }
 
