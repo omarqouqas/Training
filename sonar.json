@@ -1,0 +1,4 @@
+{  
+    "sonarHost": "https://ci.geant.net/sonar/",
+    "sonarProjectKey": "demo-omars-project"
+}
