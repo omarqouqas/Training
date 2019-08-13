@@ -1,7 +1,7 @@
 package training;
 
-import java.awt.*;
 import java.util.Scanner;
+import java.util.Arrays;
 
 //import static java.awt.*;
 //import static java.awt.Color.BLUE;
@@ -28,18 +28,19 @@ public class Main {
 		Scanner scan = new Scanner(System.in);
 		String userInput = scan.next();
 		System.out.println("You entered " + userInput);
+		scan.close();
 
 		int[] firstArray = new int[5];
 		firstArray[0] = 31;
 		firstArray[1] = 45;
-		System.out.println(firstArray[0]);
-		System.out.println("index 2 in firstArray has number " + firstArray[2]);
-		System.out.println("index 3 firstArray has " + firstArray[3]);
+		System.out.println("This is firstArray " + Arrays.toString(firstArray));
+		System.out.println("index 0 in firstArray has number " + firstArray[0]);
+		System.out.println("index 1 firstArray has " + firstArray[1]);
 
 		int[] secondArray = {1,2,3,4,5,6};
-		System.out.println(secondArray[3]);
-		System.out.println("the size of array numbers is "  + firstArray.length);
-		System.out.println("the size of array numbers2 is "  + secondArray.length);
+		System.out.println("This is secondArray " + Arrays.toString(secondArray));
+		System.out.println("the size of the firstArray is "  + firstArray.length);
+		System.out.println("the size of the secondArray is "  + secondArray.length);
 	}
 }
 
