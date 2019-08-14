@@ -1,7 +1,5 @@
 package training;
 
-import java.awt.Color;
-
 public class Car {
 	
 	double milesPG;

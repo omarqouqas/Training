@@ -1,6 +1,6 @@
 package training;
 
-public class words {
+public class Words {
 	
 	public static void main (String[] args){
 		
