@@ -3,8 +3,6 @@ package training;
 import java.util.Scanner;
 import java.util.Arrays;
 
-//import static java.awt.*;
-//import static java.awt.Color.BLUE;
 
 public class Main {
 
