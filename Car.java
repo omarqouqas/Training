@@ -14,8 +14,8 @@ public class Car {
 		this.numberOfDoors = numberOfDoors;
 
 	}
-
-	public int changeNumberOfDoors (int newDoors){
+	
+	protected int changeNumberOfDoors (int newDoors){
 
 		this.numberOfDoors = newDoors;
 		return newDoors;
