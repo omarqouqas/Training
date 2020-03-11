@@ -1,0 +1,4 @@
+{
+	"sonarHost": "https://sonarqube.software.geant.org",
+	"sonarProjectKey": "demo-omars-project"
+}
