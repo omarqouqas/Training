@@ -1,4 +1,3 @@
-//https://javarevisited.blogspot.com/2014/08/how-to-find-all-pairs-in-array-of-integers-whose-sum-equal-given-number-java.html
 package training;
 
 import java.util.Arrays;
